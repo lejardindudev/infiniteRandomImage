@@ -1,0 +1,16 @@
+@use "./assets/variables" as *;
+.Loader{
+    border-radius:$xBigSpace;
+    background-color: $bgDarkColorAlpha;
+    border:solid 2px $bgXxDarkColor;
+    position:fixed;
+    padding:$bigSpace;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.Header{
+    text-align: center;
+    background-color: $bgColor;
+    padding:$space;
+}

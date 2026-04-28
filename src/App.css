@@ -1,0 +1,16 @@
+.Loader {
+  border-radius: 2em;
+  background-color: rgba(244, 238, 255, 0.5333333333);
+  border: solid 2px #ded6f5;
+  position: fixed;
+  padding: 1.6em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Header {
+  text-align: center;
+  background-color: #FAF4FF;
+  padding: 1em;
+}/*# sourceMappingURL=App.css.map */

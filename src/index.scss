@@ -1,0 +1,11 @@
+@use "./assets/variables" as *;
+// Generals
+body{
+     font-family: $fontText;
+     margin:0;
+}
+
+h1, h2, h3{
+     font-family: $fontTitles;
+     font-weight: normal;
+}

@@ -1,0 +1,62 @@
+// Colors
+$firstColor:rgb(0, 110, 255);
+$firstDarkColor:rgb(3, 43, 94);
+$firstLightColor:rgb(71, 151, 255);
+$firstXLightColor:rgb(209, 229, 255);
+$altColor:rgb(154, 0, 116);
+$textColor:rgb(16, 26, 38);
+$white:white;
+$alphaWhite:rgba(255, 255, 255, 0.443);
+$gray:#d1d5db;
+
+$bgColor:#FAF4FF;
+$bgDarkColor:#F4EEFF;
+$bgDarkColorAlpha:#f4eeff88;
+$bgDarkColorLightAlpha:#f4eeffe5;
+$bgXDarkColor:#E6DEFF;
+$bgXxDarkColor:#ded6f5;
+
+// Shadows
+$thinShadow:2px 2px 8px #30295029;
+$shadow:5px 5px 15px #3029501d;
+
+// Spaces
+$xxBigSpace: 3em;
+$xBigSpace:2em; 
+$bigSpace: 1.6em;
+$mediumSpace: 1.3em;
+$space: 1em;
+$smallSpace: 0.8em; 
+$xSmallSpace:0.6em;
+$xxSmallSpace : .3em;  
+
+// Layout-sizes
+$headerHeight:90px;
+
+// Viewports
+$tablet:480px;
+$laptop:860px;
+$desktop:1200px;
+$widescreen:1980px;
+
+$vhMin:680px;
+$radius:25px;
+
+$fontTitles:"Carter One", system-ui;
+$fontText:"Outfit", sans-serif;
+
+
+// Mixins
+// Media queries
+@mixin media($breakpoint) {
+  @media screen AND (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+// Layout
+@mixin layout($max-width: $laptop) {
+  width: 95%;
+  margin-inline: auto;
+  max-width: $max-width;
+}

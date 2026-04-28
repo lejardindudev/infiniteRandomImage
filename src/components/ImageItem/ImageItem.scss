@@ -1,0 +1,17 @@
+@use "../../assets/variables" as *;
+/*
+  Styles for ImageItem component
+*/
+.ImageItem{
+  border-radius:$radius;
+  overflow:hidden;
+  border:solid 1px $bgXxDarkColor;
+  margin-bottom:$space;
+  background-color: $bgColor;
+  &.img{
+    width:100%;
+  }
+  &-infos{
+    padding:$xSmallSpace $space;
+  }
+}

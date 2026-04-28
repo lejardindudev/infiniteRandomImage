@@ -1,0 +1,16 @@
+/*
+  Styles for ImageItem component
+*/
+.ImageItem {
+  border-radius: 25px;
+  overflow: hidden;
+  border: solid 1px #ded6f5;
+  margin-bottom: 1em;
+  background-color: #FAF4FF;
+}
+.ImageItem.img {
+  width: 100%;
+}
+.ImageItem-infos {
+  padding: 0.6em 1em;
+}/*# sourceMappingURL=ImageItem.css.map */
