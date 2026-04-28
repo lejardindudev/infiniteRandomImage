@@ -1,16 +1,61 @@
-# React + Vite
+# 📸 Image Loader – Picsum Random API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧾 Description
 
-Currently, two official plugins are available:
+**Image Loader** est une application web simple développée avec React qui permet d'afficher des images aléatoires provenant de l'API publique Picsum Photos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+L'objectif du projet est de manipuler des appels API, gérer le state React et implémenter des interactions utilisateur simples autour du chargement dynamique de contenu.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Fonctionnalités
 
-## Expanding the ESLint configuration
+- 🔄 Chargement d’images aléatoires via l’API Picsum
+- 📄 Pagination des résultats (`page` / `limit`)
+- ⚡ Mise à jour dynamique des images
+- 🧠 Gestion du state avec les hooks React (`useState`, `useEffect`)
+- ♻️ Re-render optimisé selon les interactions utilisateur
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Stack technique
+
+- React (Vite)
+- JavaScript (ES6+)
+- CSS / Sass
+- API REST : https://picsum.photos/
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/ton-repo/image-loader.git
+cd image-loader
+npm install
+npm run dev
+```
+
+---
+
+## 🔗 Utilisation de l'API
+
+Endpoint utilisé :
+
+https://picsum.photos/v2/list?page={page}&limit={limit}
+
+---
+
+## 📱 Améliorations possibles
+
+- Loader
+- Gestion erreurs
+- Lazy loading
+- Favoris
+- Filtrage
+
+---
+
+## 📄 Author
+
+Le jardin du dev : Projet libre à des fins pédagogiques.
