@@ -27,14 +27,27 @@ L'objectif du projet est de manipuler des appels API, gérer le state React et i
 
 ---
 
-## 📦 Installation
+## 🚀 Lancement du projet
+
+### Avec Docker (recommandé)
+
+#### Windows:
 
 ```bash
-git clone https://github.com/ton-repo/image-loader.git
-cd image-loader
-npm install
-npm run dev
+git clone <repo>
+cd <repo>
+docker compose -f docker-compose.windows.yml up
 ```
+
+#### Linux:
+
+```bash
+git clone <repo>
+cd <repo>
+docker compose -f docker-compose.windows.yml up
+```
+
+👉 Accès : http://localhost:5173
 
 ---
 
